@@ -1,0 +1,76 @@
+
+
+
+*{
+    text-decoration: none;
+}
+
+ .body-index{
+    background-image: url('./images/index.jpg') no-repeat center center / cover ;
+    text-align: center;
+    
+}
+.body{
+    background-image: url('./images/index.jpg') no-repeat center center / cover ;
+    text-align: center;
+}
+body{
+    width: 850px;
+    margin: auto;
+    background: url('./images/images.jpeg') no-repeat center center / cover;
+}
+
+body h1{
+    text-align:center;
+    color: green;
+    margin-right: 60px;
+    margin-left: 120px;
+
+}
+
+.left li{
+    text-align: center;
+    list-style-type: none;
+
+}
+.left li a:hover{
+    color:blue
+}
+.left a{
+    color:yellow;
+    font-weight: 700;
+}    
+
+.right{
+    display: flex;
+    justify-content:center;
+    
+}
+
+img{
+    border-radius: 10px;
+    border: 2px solid black;
+    margin:20px
+    
+}
+
+.salom{
+    color: red;
+    text-align: center;
+}
+.location{
+
+    text-align:center;
+    color:green;
+}
+
+.div-p p:first-child{
+    color: green;
+    
+
+}
+
+.div-p p{
+    color: red;
+    text-align: center;
+}
